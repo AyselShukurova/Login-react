@@ -1,0 +1,64 @@
+.form{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    align-items: center;
+    justify-items: center;
+    padding: 200px 80px;
+}
+.main{
+    display: grid;
+    gap: 24px;
+    width: 80%;
+    justify-self: center;
+}
+.title{
+    display: flex;
+    /* grid-auto-flow: column; */
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 600;
+    color: rgba(45, 55, 72, 1);
+}
+.mobilphone{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.asanUserId{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(45, 55, 72);
+}
+.continue{
+    background-color: rgba(203, 213, 224, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 6px;
+    padding: 8px;
+    border: 1px solid rgba(203, 213, 224, 1);
+}
+.or{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.register{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    border: 1px solid rgba(226, 232, 240, 1);
+    padding: 10px;
+    border-radius: 6px;
+}
+.mobilphone input, 
+.asanUserId input {
+    border: 1px solid rgba(203, 213, 224, 1);
+    border-radius: 6px;
+    width: 100%;
+    padding: 8px;
+}

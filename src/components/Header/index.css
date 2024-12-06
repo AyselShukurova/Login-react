@@ -1,0 +1,23 @@
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 40px;
+}
+.language{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+    color: rgba(160, 174, 192, 1);
+    font-weight: 600; /* Fixed from '600px' */
+    line-height: 24px;
+    font-size: 16px;
+}
+.azn{
+    color: black; 
+}

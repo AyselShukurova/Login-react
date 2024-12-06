@@ -1,0 +1,8 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding: 20px 50px;
+}
